@@ -1,0 +1,50 @@
+<style>
+    .formulario {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+       transform: translate(-50%,-50%);
+        display: inline-block;
+        background: rgba(36, 29, 29, 0.8);
+        width: 500px;
+        height: 250px;
+        border-radius: 3px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .formulario input{
+        margin: 20px 5px 5px;
+        padding: 3px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioJavascript</title>
+</head>
+<body>
+   <div class="formulario">
+        <input type="text" id="formnome" placeholder="Nome"value=''>
+        <input type="text" id="formemail" placeholder="E-mail"value=''>
+        <input type="text" id="formcpf" placeholder="CPF"value=''>
+        <input type="text" id="formtelefone" placeholder="Telefone"value=''>
+        <input type="text" id="formcep" placeholder="CEP"value=''>
+        <input type="text" id="formLogradouro" placeholder="Logradouro"value=''>
+        <input type="text" id="formnum" placeholder="Numero"value=''>
+        <input type="text" id="formCidade" placeholder="Cidade"value=''>
+        <input type="text" id='formbairro' placeholder="Bairro"value=''>
+        <input type="text" id="formestado" placeholder="Estado"value=''>
+        <button type="submit" onclick="imprimirForm()">Imprimmir no Console</button>
+    </div>
+    <div id="valor">
+
+    </div>
+</body>
+</html>
+
+
+<script src="./javascript.js"></script>
